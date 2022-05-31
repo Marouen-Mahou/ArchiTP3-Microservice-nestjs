@@ -13,6 +13,9 @@ The microservice architecture enables the rapid, frequent and reliable delivery 
 
 ## Architecture Implemented
 In this project we have two main microservices (Planning Microservice & Forecast Microservice) built with Nest.js and connected via TCP.protocole with the security microservice.
+
+![Screenshot](arch.png)
+
 ### Forecast Backend
 Forecast backend microservice is the buisness layer of the forecast microservice. It communicates with it is own MongoDB database ( Forecast ) to retrive and manipulate data then return it
 to the user that requested it. 
